@@ -1,4 +1,4 @@
-FROM php:7.3-fpm #Y ou can customise your PHP version here
+FROM php:7.3-fpm #You can customise your PHP version here
 
 RUN apt-get update && apt-get install -y libmcrypt-dev mysql-client \
     && pecl install mcrypt-1.0.2 \
